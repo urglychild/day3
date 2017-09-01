@@ -1,0 +1,68 @@
+body {
+  font-size: 0.12rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background: #f3f3fe; }
+
+.header {
+  height: 0.4rem;
+  border-bottom: 1px solid #eaeafd;
+  background: #fff; }
+  .header ul {
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+    line-height: 0.4rem; }
+    .header ul li {
+      -webkit-flex: 1;
+      width: 33.33333%;
+      text-align: center; }
+      .header ul li a {
+        color: #666; }
+    .header ul .active {
+      border-bottom: 1px solid blue; }
+      .header ul .active a {
+        color: blue; }
+
+.content {
+  margin-top: 10px;
+  border-top: 1px solid #eaeafd;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #fff; }
+  .content .box {
+    height: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px; }
+    .content .box .box-top {
+      height: 0.55rem;
+      background: #fd6060;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .content .box .box-bottom p {
+      padding-left: 20px;
+      padding-top: 5px;
+      padding-bottom: 5px; }
+      .content .box .box-bottom p span {
+        padding-left: 5px;
+        padding-top: -2px; }
+    .content .box .box-bottom p:first-child span {
+      color: #00a864; }
+    .content .box .box-bottom p:last-child span {
+      color: #929292; }
+    .content .box .box-bottom p:last-child img {
+      width: 0.12rem;
+      height: 0.12rem; }
+    .content .box .box-top2 {
+      background: #5686f4; }
+    .content .box .box-top3 {
+      background: #965df5; }
+    .content .box .box-top4 {
+      background: #4bc670; }
+
+/*# sourceMappingURL=style.css.map */
